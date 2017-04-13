@@ -1,0 +1,19 @@
+README
+
+
+Solve the 599 timeout issue by adding httpclient configure line
+
+httpclient.AsyncHTTPClient.configure(None, defaults={'connect_timeout': 300, 'request_timeout': 300})
+
+All parts works well now, start the search engine by typing following command (in root directory)
+
+./assignment4/reformat_all.sh
+
+python -m assignment3.workers 
+
+python -m assignment4.start
+
+python -m assignment2.start
+
+
+
