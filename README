@@ -1,0 +1,16 @@
+This is a simple search engine based on query word and text relativity, which is build on a mini mapreduce framework.
+
+You can search interesting text by visiting:
+
+    http://linserv2.cims.nyu.edu:22749/search?q=financial
+
+replace argument q with your interested word.
+
+
+The mapreduce framework is built on Tornado, which is asynchronous and single-thread web framework.
+
+User could submit their data and Mapper/Reducer Program to the framework and the framework will create output result files at the end.
+
+
+ 
+   
